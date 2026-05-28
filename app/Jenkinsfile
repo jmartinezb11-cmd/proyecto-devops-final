@@ -18,7 +18,7 @@ pipeline {
 
             steps {
 
-                sh 'sudo docker build -t proyecto-devops .'
+                sh 'docker build -t proyecto-devops .'
 
             }
 
@@ -28,7 +28,7 @@ pipeline {
 
             steps {
 
-                sh 'sudo docker stack deploy -c swarm/docker-stack.yml proyecto'
+                sh 'docker stack deploy -c swarm/docker-stack.yml proyecto'
 
             }
 
