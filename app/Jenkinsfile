@@ -8,7 +8,7 @@ pipeline {
 
             steps {
 
-                git 'https://github.com/jmartinezb11-cmd/proyecto-devops-final'
+                git branch: 'main', url: 'https://github.com/jmartinezb11-cmd/proyecto-devops-final'
 
             }
 
