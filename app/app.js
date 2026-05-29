@@ -6,7 +6,8 @@ const PORT = 3000;
 
 app.get('/',(req, res) => {
 
-    res.send(`<!DOCTYPE html>
+    res.send(`
+    <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
